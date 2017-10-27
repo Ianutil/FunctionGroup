@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
         logManager.enableSaveToFile(true);
         logManager.e("Log Message");
 
+        for (int i = 0; i < 1000; i++){
+            logManager.e("这是一个测试");
+        }
+
         UploadFileManager uploadFileManager = new UploadFileManager(this.getApplication());
         uploadFileManager.start(10 * 60 * 1000);
     }
