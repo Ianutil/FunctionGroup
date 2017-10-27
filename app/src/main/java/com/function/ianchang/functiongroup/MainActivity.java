@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             logManager.e("这是一个测试");
         }
 
+        // 每隔5分钟上，查看一次是否有待上传的日志文件
         UploadFileManager uploadFileManager = new UploadFileManager(this.getApplication());
         uploadFileManager.start(10 * 60 * 1000);
     }
