@@ -1,4 +1,4 @@
-package com.function.ianchang.functiongroup;
+package com.function.ianchang.devtools;
 
 /**
  * Created by ianchang on 2017/10/27.
